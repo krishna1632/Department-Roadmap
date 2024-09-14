@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  overflow-x: hidden
+}
+
+.top-header {
+  background-color: hsl(247, 52%, 10%);
+  color: #fff;
+  width: 100vw;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.header {
+  color: #fff;
+  background-color: rgb(119, 22, 164);
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.3);
+
+}
+
+.corner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 7px;
+}
+
+.corner img {
+  height: 75px;
+  width: 75px;
+}
+
+.content a {
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+}
+
+.search-box {
+  position: relative;
+  width: 300px;
+}
+
+.search-box input {
+  /* font-size: 30px; */
+  width: 100%;
+  padding: 13px 20px 13px 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f6f5f5;
+}
+
+.search-box i {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #888;
+  /* Icon color */
+  font-size: 18px;
+  /* Icon size */
+}
+
+.search-icon {
+  display: none;
+  font-size: 24px;
+  /* Size to match moon icon */
+  color: #ffffff;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.dark {
+  position: relative;
+  cursor: pointer;
+  font-size: 24px;
+  /* Size of the icon */
+  color: #ffffff;
+  /* Default color */
+}
+
+.dark:hover {
+  color: #000;
+  /* Icon color on hover */
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #fff;
+}
+
+body.light-mode {
+  background-color: #fff;
+  color: #000;
+}
+
+.hamburger-menu {
+  display: none;
+  font-size: 24px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.nav-links {
+  display: none;
+}

@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  overflow-x: hidden
+}
+
+
+.header {
+  color: #fff;
+  background-color: rgb(119, 22, 164);
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.3);
+
+}
+
+.corner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 7px;
+}
+
+.corner img {
+  height: 75px;
+  width: 75px;
+}
+
+.content a {
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+}
+
+.search-box {
+  position: relative;
+  width: 300px;
+}
+
+.search-box input {
+  /* font-size: 30px; */
+  width: 100%;
+  padding: 13px 20px 13px 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f6f5f5;
+}
+
+.search-box i {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #888;
+  /* Icon color */
+  font-size: 18px;
+  /* Icon size */
+}
+
+.search-icon {
+  display: none;
+  font-size: 24px;
+  /* Size to match moon icon */
+  color: #ffffff;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.dark {
+  position: relative;
+  cursor: pointer;
+  font-size: 24px;
+  /* Size of the icon */
+  color: #ffffff;
+  /* Default color */
+}
+
+.dark:hover {
+  color: #000;
+  /* Icon color on hover */
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #fff;
+}
+
+body.light-mode {
+  background-color: #fff;
+  color: #000;
+}
+
+.hamburger-menu {
+  display: none;
+  font-size: 24px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.nav-links {
+  display: none;
+}
+
+.study-materials-section {
+  margin-top: 40px;
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #e10d0d;
+  background: linear-gradient(90deg, #0f2027 10%, #203a43 40%, #2c5364 90%);
+}
+
+.study-materials-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #fffbfb;
+}
+
+.study-materials-section .description {
+  font-size: 1.1rem;
+  color: #dac9c9;
+  margin-bottom: 40px;
+}
+
+.materials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.material-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.material-card img {
+  max-width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.material-card h3 {
+  font-size: 1.5rem;
+  margin: 15px 0;
+  color: #333;
+}
+
+.material-card p {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.material-card .btn-view {
+  background-color: #ff007f;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.material-card .btn-view:hover {
+  background-color: #e60073;
+}
+
+.material-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
