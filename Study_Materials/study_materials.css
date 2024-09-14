@@ -123,8 +123,102 @@ body.light-mode {
   display: none;
 }
 
+@media (max-width: 1101px) {
+  .search-box {
+    display: none;
+  }
+
+  .search-icon {
+    display: block;
+  }
+}
+
+
+@media (max-width: 1236px) {
+  .header {
+    font-size: 13px;
+  }
+
+  .search-box input {
+    font-size: 8px;
+  }
+
+}
+
+@media (max-width: 920px) {
+  .photo {
+    display: none;
+  }
+
+  .hero {
+    padding: 50px;
+  }
+
+  .content {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .header {
+    position: relative;
+    height: 50px;
+  }
+
+  .corner img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .corner h2 {
+    font-size: 15px;
+  }
+
+  .content-container .search-icon,
+  .content-container .hamburger-menu {
+    font-size: 15px;
+  }
+
+  .welcome .welcome-content {
+    font-size: 12px;
+  }
+
+  .modern-btn .btn-pink {
+    padding: 6px 9px;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 75px;
+    right: 0;
+    background-color: rgb(225, 221, 227);
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-links a {
+    padding: 15px;
+    display: block;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+}
+
+@media (max-width: 440px) {
+  .corner h2 {
+    font-size: 10px;
+  }
+}
+
 .study-materials-section {
-  margin-top: 40px;
+  /* margin-top: 40px; */
+  width: 100vw;
   padding: 50px 20px;
   text-align: center;
   background-color: #e10d0d;
@@ -145,7 +239,7 @@ body.light-mode {
 
 .materials-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 20px;
 }
 
