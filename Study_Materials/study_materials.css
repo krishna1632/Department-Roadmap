@@ -6,7 +6,7 @@
 }
 
 body {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 
@@ -222,7 +222,6 @@ body.light-mode {
   text-align: center;
   /* background-color: #e10d0d; */
   background: linear-gradient(90deg, #0f2027 10%, #203a43 40%, #2c5364 90%);
-
 }
 
 .study-materials-section h2 {
@@ -239,12 +238,12 @@ body.light-mode {
 
 .materials-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 20px;
 }
 
 .material-card {
-  background-color: #fff;
+  background-color: #2113e6;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
