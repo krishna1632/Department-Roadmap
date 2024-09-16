@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  
+
 }
 
 body {
@@ -212,11 +212,20 @@ body.light-mode {
     display: flex;
   }
 
-  /* .info h2, .info p{
-    font-size: 1000px;
-    color: #0b0be4; 
-    display: none; 
-  } */
+  .info-content h2 {
+    font-size: 2rem !important;
+    /* Heading ka size chhota karna */
+  }
+
+  .info-content p {
+    font-size: 1rem !important;
+    /* Paragraph text ka size chhota karna */
+  }
+
+  .show-more {
+    font-size: 0.9rem;
+    /* Button ka size adjust karna */
+  }
 }
 
 @media (max-width: 440px) {
