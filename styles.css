@@ -392,7 +392,7 @@ body.light-mode {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  /* text-align: center; */
   position: relative;
   background: linear-gradient(90deg, #1e1e1e 20%, #f73465 50%, #1e1e1e 80%);
 
@@ -413,11 +413,13 @@ body.light-mode {
 }
 
 .roadmap {
+  margin-top: 20px;
   width: 100vw;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 40px;
-  padding: 0 20px;
+  padding: 40px 40px;
+  /* background-color: red; */
   background: linear-gradient(90deg, #1e1e1e 20%, #f73465 50%, #1e1e1e 80%);
 }
 
@@ -439,7 +441,7 @@ body.light-mode {
 }
 
 .card:hover .card-inner {
-  transform: rotateY(180deg);
+  /* transform: rotateY(180deg); */
 }
 
 .card-front,
@@ -527,23 +529,30 @@ body.light-mode {
   }
 }
 
-
-.show-more {
-
-  background-color: #1868e0;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.3s ease;
-  z-index: 1;
+.info-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: red; */
 }
 
-.show-more:hover {
-  background-color: #0d4d8c;
+.show-more{
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  border: none;
+  background-color: #ff007f;
+  color: #fff;
+  height: 20px;
+  padding: 20px 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.show-more:hover{
+  transform: scale(1.1);
+  transition: 1s;
 }
 
 .study-materials-section {
@@ -551,7 +560,7 @@ body.light-mode {
   padding: 50px 20px;
   text-align: center;
   /* background-color: #e10d0d; */
-  background: linear-gradient(90deg, #1e1e1e 20%, #e55277 50%, #1e1e1e 80%);
+  background: linear-gradient(90deg, #1e1e1e 20%, #f73465 50%, #1e1e1e 80%);
 }
 
 .study-materials-section h2 {
