@@ -211,6 +211,12 @@ body.light-mode {
   .nav-links.show {
     display: flex;
   }
+
+  /* .info h2, .info p{
+    font-size: 1000px;
+    color: #0b0be4; 
+    display: none; 
+  } */
 }
 
 @media (max-width: 440px) {
@@ -389,7 +395,7 @@ body.light-mode {
   flex-direction: column;
   /* text-align: center; */
   position: relative;
-  background: linear-gradient(90deg, #1e1e1e 20%, #f73465 50%, #1e1e1e 80%);
+  background: linear-gradient(135deg, #1e1e1e 20%, #f73465 50%, #1e1e1e 80%);
 
 }
 
@@ -415,7 +421,7 @@ body.light-mode {
   gap: 40px;
   padding: 40px 40px;
   /* background-color: red; */
-  background: linear-gradient(90deg, #1e1e1e 20%, #f73465 50%, #1e1e1e 80%);
+  background: linear-gradient(135deg, #1e1e1e 20%, #f73465 50%, #1e1e1e 80%);
 }
 
 .card {
@@ -529,7 +535,7 @@ body.light-mode {
 .info-content {
   display: flex;
   justify-content: space-around;
-  align-items: flex-end;
+  align-items: center;
   /* background-color: red; */
 }
 
