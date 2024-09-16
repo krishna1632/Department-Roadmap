@@ -22,14 +22,15 @@ body {
 
 .header {
   color: #fff;
-  background-color: rgb(119, 22, 164);
+  /* background-color: rgb(119, 22, 164); */
+  background: linear-gradient(90deg, #1e1e1e 20%, #f73465 50%, #1e1e1e 80%);
   width: 100vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 75px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.3);
-  
+
 }
 
 .corner {
@@ -391,7 +392,8 @@ body.light-mode {
   flex-direction: column;
   text-align: center;
   position: relative;
-  background: linear-gradient(90deg, #0f2027 10%, #203a43 40%, #2c5364 90%);
+  background: linear-gradient(90deg, #1e1e1e 20%, #f73465 50%, #1e1e1e 80%);
+
 }
 
 .roadmap-container h2 {
@@ -414,7 +416,7 @@ body.light-mode {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 40px;
   padding: 0 20px;
-  background: linear-gradient(90deg, #0f2027 10%, #203a43 40%, #2c5364 90%);
+  background: linear-gradient(90deg, #1e1e1e 20%, #e55277 50%, #1e1e1e 80%);
 }
 
 .card {
@@ -452,14 +454,15 @@ body.light-mode {
 }
 
 .card-front {
-  background: linear-gradient(135deg, #f2f2f2, #5a2a8b);
+  background: linear-gradient(135deg, #f2f2f2, #f6cdc7);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 1);
   text-align: justify;
   display: flex;
   flex-direction: column;
 }
 
-.card-front .text {
+.card-front p {
+  color: #1e1e1e;
   padding: 20px;
   text-align: justify;
 }
@@ -477,7 +480,7 @@ body.light-mode {
 }
 
 .card-back {
-  background: linear-gradient(135deg, #2c5364, #0f2027);
+  background: linear-gradient(135deg, #fb03b0, #0f2027);
   transform: rotateY(180deg);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 1);
   display: flex;
@@ -546,7 +549,7 @@ body.light-mode {
   padding: 50px 20px;
   text-align: center;
   /* background-color: #e10d0d; */
-  background: linear-gradient(90deg, #0f2027 10%, #203a43 40%, #2c5364 90%);
+  background: linear-gradient(90deg, #1e1e1e 20%, #e55277 50%, #1e1e1e 80%);
 }
 
 .study-materials-section h2 {

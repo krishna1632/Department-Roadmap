@@ -239,11 +239,12 @@ body.light-mode {
 .materials-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 20px;
+  gap: 50px;
+  padding: 0 50px;
 }
 
 .material-card {
-  background-color: #2113e6;
+  background-color: #f4f4f4;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
