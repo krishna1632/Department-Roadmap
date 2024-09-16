@@ -193,16 +193,18 @@ body.light-mode {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 75px;
+    top: 100px;
     right: 0;
-    background-color: rgb(225, 221, 227);
+    background-color: rgb(214, 200, 213);
     width: 100%;
     text-align: center;
+    z-index: 100;
   }
 
   .nav-links a {
-    padding: 15px;
+    padding: 20px;
     display: block;
+    text-decoration: none;
   }
 
   .nav-links.show {
