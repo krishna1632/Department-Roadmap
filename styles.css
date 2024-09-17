@@ -276,7 +276,7 @@ body.light-mode {
 }
 
 #typing-text {
-  color: #0b0be4;
+  color: #f73465;
   font-weight: bold;
   border-right: #0b0be4;
   white-space: nowrap;
@@ -325,7 +325,7 @@ body.light-mode {
 
 .btn-pink {
   /* margin-top: 20px; */
-  background-color: #1868e0;
+  background-color: #f73465;
   padding: 0.4rem 1rem;
   color: white;
   font-size: 10px;
@@ -594,8 +594,10 @@ body.light-mode {
 }
 
 .study-materials-section h2 {
+  text-align: center;
+  /* background-color: blue; */
   font-size: 2.5rem;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   color: #fffbfb;
 }
 
@@ -605,10 +607,16 @@ body.light-mode {
   margin-bottom: 40px;
 }
 
+.study{
+  margin-top: 50px;
+  padding: 20px;
+}
+
 .study-materials-section .study-content {
+  /* margin-top: 20px; */
   display: flex;
   justify-content: space-around;
-  align-items: flex-end;
+  align-items: center;
   /* background-color: red; */
 }
 
@@ -654,6 +662,11 @@ body.light-mode {
   border-radius: 10px;
 }
 
+.material-card img:hover{
+  transform: scale(1.2);
+  transition: 1s;
+}
+
 .material-card h3 {
   font-size: 1.5rem;
   margin: 15px 0;
@@ -681,7 +694,7 @@ body.light-mode {
 }
 
 .material-card:hover {
-  transform: translateY(-10px);
+  transform: scale(1.03);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
