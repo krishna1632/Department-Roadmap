@@ -572,6 +572,19 @@ body.light-mode {
   transition: 1s;
 }
 
+@media (max-width:720px) {
+
+  .info-content p {
+    display: none;
+  }
+
+  .info-content {
+    display: flex;
+    align-items: center;
+  }
+
+}
+
 .study-materials-section {
   margin-top: 40px;
   padding: 50px 20px;
