@@ -218,3 +218,54 @@ body.light-mode {
     font-size: 10px;
   }
 }
+
+
+.hero {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f2f2f2;
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.15) 1px, transparent 1px),
+    radial-gradient(circle, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+  background-size: 50px 50px;
+  /* Adjust according to grid size you want */
+  background-position: 0 0, 25px 25px;
+  /* Adjust grid alignment */
+}
+
+.welcome {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: end;
+  text-align: justify;
+}
+
+.welcome-content {
+  height: 75%;
+  width: 80%;
+  margin: auto;
+}
+
+.welcome h2 {
+  font-size: 24px;
+  font-family: 'Courier', monospace;
+  /* A typewriter-like font */
+  display: flex;
+  /* Ensure text stays in the same line */
+  align-items: center;
+}
+
+#typing-text {
+  color: #f73465;
+  font-weight: bold;
+  border-right: #0b0be4;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  min-width: 220px;
+  /* Set minimum width to prevent 'jumping' */
+  margin-left: 10px;
+  /* Add space between "Learn" and the text */
+}
